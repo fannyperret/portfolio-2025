@@ -1,0 +1,50 @@
+.page {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.header {
+  grid-column: 1 / 3;
+}
+
+.group-buttons {
+  grid-row: 2;
+}
+
+.group-medias {
+  grid-row: 3;
+}
+
+.container-img {
+  position: relative;
+  grid-column: 4 / 4;
+  grid-row: 1 / 4;
+  width: 480px;
+  height: 630px;
+
+  .background-one {
+    position: absolute;
+    width: 394px;
+    height: 540px;
+    background: linear-gradient(209deg, #ffde03, white);
+    border-radius: 10px;
+  }
+
+  .background-two {
+    position: absolute;
+    width: 394px;
+    height: 540px;
+    top: 45px;
+    left: 45px;
+    background: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(25px);
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+  }
+
+  img {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+  }
+}

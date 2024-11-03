@@ -1,0 +1,22 @@
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 16px;
+}
+
+ul {
+  display: flex;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  color: #1c2365;
+  text-transform: uppercase;
+  display: inline-block;
+  text-decoration: none;
+  padding: 4px 16px;
+}

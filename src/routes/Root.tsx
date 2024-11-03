@@ -1,4 +1,5 @@
-import { Outlet, Link } from "react-router-dom";
+import { Outlet, Link } from "react-router-dom"
+import './Root.css'
 import logo from "../assets/logo.png"
 
 export default function Root() {
